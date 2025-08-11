@@ -34,6 +34,13 @@ export default function RootLayout() {
             title: 'Profile & Photo Upload',
           }}
         />
+        <Drawer.Screen
+          name="hangMan"
+          options={{
+            drawerLabel: 'Hang Man Game',
+            title: 'Hang Man Game',
+          }}
+        />
 
 
       </Drawer>

@@ -32,6 +32,12 @@ export default function WelcomeScreen() {
             >
                 <Text style={styles.exploreText}>Open Profile Uploader App 📸</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                onPress={() => router.push('/hangMan')}
+                style={[styles.exploreBtn, { backgroundColor: '#dfc00dff' }]}
+            >
+                <Text style={styles.exploreText}>Play Hangman Game 🎩</Text>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -43,6 +49,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 20,
+
+
     },
     logo: {
         width: 150,
